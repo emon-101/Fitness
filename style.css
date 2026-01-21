@@ -5,3 +5,12 @@
 * {
     font-family: "Inter", sans-serif;
 }
+
+/* Shared Styles */
+.color-primary {
+    color: rgba(230, 83, 60, 1);
+}
+
+.bg-header {
+    background: linear-gradient(180.00deg, rgba(17.41, 17.41, 17.41, 1) 0%,rgba(119.41, 119.41, 119.41, 0) 100%);
+}
