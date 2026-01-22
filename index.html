@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/97ee3b164d.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-black text-white">
-    <header class="pt-8 lg:pt-14 px-5 lg:px-0">
+    <header class="pt-8 lg:pt-14 px-5 lg:px-0 bg-header">
         <!-- Navbar -->
         <nav class="flex justify-between items-center lg:w-4/5 mx-auto">
             <!-- Nav Title -->
@@ -33,23 +33,43 @@
         </nav>
 
         <!-- Banner Section -->
-        <section>
+        <section class="lg:w-4/5 mx-auto">
             <!-- Banner Container -->
-            <div class="">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:40 mt-8 items-center">
                 <!-- Banner Content -->
                 <div class="">
-                    
+                    <!-- banner title -->
+                    <h1 class="text-5xl md:text-7xl font-black mb-6 w-3/4 lg:w-full">Get body in shape & stay healthy</h1>
+                    <p class="opacity-50 mb-6 w-3/4 lg:w-full">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                    <!-- Banner Buttons -->
+                    <div class="flex gap-3">
+                        <button class="py-2 px-5 btn rounded-[46px] bg-primary cursor-pointer">Join Club Now!</button>
+                        <button class="py-1.5 btn px-5 rounded-[46px] border border-white cursor-pointer">Download App</button>
+                    </div>
                 </div>
                 <!-- Banner Image -->
-                <div class="">
-
+                <div class="relative">
+                    <div class="flex justify-center lg:justify-end"><img src="./images/Images 2.png" alt=""></div>
+                    <div class="absolute rounded-xl border border-white/10 backdrop-blur-sm bg-white/10 p-4 lg:top-32 top-12 right-0 lg:-right-14">
+                        <h1 class="text-3xl font-extrabold">500+</h1>
+                        <p class="opacity-50">Free Workout Videos</p>
+                    </div>
+                    <div class="absolute flex gap-3 justify-center items-center rounded-xl border border-white/10 py-4 px-8 bottom-60 lg:bottom-14 left-2 lg:left-32 backdrop-blur-sm bg-white/10">
+                        <!-- circle -->
+                        <div class="rounded-full w-8 h-8 bg-primary"></div>
+                        <!-- Texts -->
+                        <div class="">
+                            <h1 class="text-2xl font-bold">350+</h1>
+                            <p class="opacity-50">Video tutorial</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </header>
 
     <main>
-
+        
     </main>
 
     <footer>
