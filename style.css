@@ -24,3 +24,7 @@
     background: linear-gradient(180.00deg, rgba(17.41, 17.41, 17.41, 1) 0%,rgba(119.41, 119.41, 119.41, 0) 100%);
 }
 
+.bg-hero {
+    background-color: rgba(34, 34, 34, 1);
+}
+
